@@ -1,0 +1,157 @@
+mixin overviewBox(icon, label, text)
+    .overview-box__detail
+        svg.overview-box__icon
+            use(xlink:href=`/img/icons.svg#icon-${icon}`)
+        span.overview-box__label= label
+        span.overview-box__text= text
+
+doctype html 
+html 
+    head 
+        block head
+            meta(charset='UTF-8')
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
+            link(rel='stylesheet' href='/css/style.css')
+            link(rel='shortcut icon' type='image/png' href='/img/favicon-plane.png')
+            link(href='https://fonts.googleapis.com/css?family=Lato:300,300i,700' rel="stylesheet")
+            title SkyTrip | #{title}
+    body 
+        // HEADER
+        header.header
+            nav.nav.nav--user--home
+                if user
+                    a.nav__el.nav__el--logout Log out
+                    a.nav__el(href='/me')
+                        img.nav__user-img(src=`/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                        span= `${user.name.split(' ')[0]}`
+                else
+                    a.nav__el(href='/login') Log in
+                    a.nav__el.nav__el--cta(href='/signup') Sign up
+            
+            .header__logo
+                a.nav__el(href='/')
+                    img(src="/img/logo-long.png" alt="SkyTrip logo")
+
+            nav.nav.nav--user
+                ul.header__nav
+                    li: a(href='#about-us') About us
+                    li: a(href='#trips') Trips
+                    li: a(href='#book-now') Book now
+                    li: a(href='#contact') Contact
+        
+        // CONTENT  
+        section.section-header
+            .header__hero
+                img.header__hero-img(crossorigin='anonymous' src='/img/home-bg.jpeg', alt='Homepage Pic')
+
+            .heading-box
+                h1.main-bg-content
+                    span Meet new and interesting trip outdoors
+                .homepage-btn
+                    a.btn.btn--blue(href='/overview') START YOUR TRIP
+
+        section#about-us
+            .container 
+                .one 
+                    img.home--icon(src='/img/car.png' alt='Car Icon')
+                    h3.feature-title.about-title EXPLORE THE WORLD
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia delectus a architecto aperiam necessitatibus unde
+                .two 
+                    img.home--icon(src='/img/earth.png' alt='Earth Icon')
+                    h3.feature-title.about-title FIND YOUR WAY
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia delectus a architecto aperiam necessitatibus unde
+                .three
+                    img.home--icon(src='/img/map.png' alt='Map Icon')
+                    h3.feature-title.about-title MEET NATURE
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia delectus a architecto aperiam necessitatibus unde 
+        
+        section#trips        
+            .slideshow-container
+                .mySlides
+                    .section-description
+                        .overview-box.carousel__overview
+                            div
+                                .overview-box__group
+                                    h2.heading-secondary.ma-bt-lg THE FOREST HIKER TRIP
+                                    +overviewBox('calendar', 'Next date', 'April 2021')
+                                    +overviewBox('trending-up', 'Difficulty', 'Easy')
+                                    +overviewBox('user', 'Participants', '25 People')
+                                    +overviewBox('star', 'Rating', '5 / 5')     
+                        .description-box.carousel__description
+                            img.home-sideshow-img(src="/img/tours/tour-1-cover.jpg")
+
+                .mySlides
+                    .section-description
+                        .overview-box
+                            div
+                                .overview-box__group
+                                    h2.heading-secondary.ma-bt-lg THE STAR GAZER TRIP
+                                    +overviewBox('calendar', 'Next date', 'March 2021')
+                                    +overviewBox('trending-up', 'Difficulty', 'Medium')
+                                    +overviewBox('user', 'Participants', '8 People')
+                                    +overviewBox('star', 'Rating', '4.8 / 5')     
+                        .description-box.carousel__description
+                            img.home-sideshow-img(src="/img/tours/tour-8-cover.jpg")
+
+                .mySlides
+                    .section-description
+                        .overview-box
+                            div
+                                .overview-box__group
+                                    h2.heading-secondary.ma-bt-lg THE SEA EXPLORER TRIP
+                                    +overviewBox('calendar', 'Next date', 'June 2021')
+                                    +overviewBox('trending-up', 'Difficulty', 'Medium')
+                                    +overviewBox('user', 'Participants', '15 People')
+                                    +overviewBox('star', 'Rating', '4.8 / 5')     
+                        .description-box.carousel__description
+                            img.home-sideshow-img(src="/img/tours/tour-2-cover.jpg")
+
+                //- a.prev &#10094;
+                //- a.next &#10095;
+            br
+            div.dot-div(style="text-align:center")
+                span.dot(onclick="currentSlide(1)")
+                span.dot(onclick="currentSlide(2)")
+                span.dot(onclick="currentSlide(3)")
+        
+        if user 
+
+        else
+            section.home-book-section#book-now
+                .home-book-now 
+                        .home-book-now-pic
+                            .home-book-now-form
+                                .login-form.home-login-form
+                                    h2.heading-secondary.ma-bt-lg Log into your account
+                                    form.form.form--login
+                                        .form__group
+                                            label.form__label(for='email') Email address
+                                            input#email.form__input(type='email', placeholder='you@example.com', required)
+                                        .form__group.ma-bt-md
+                                            label.form__label(for='password') Password
+                                            input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
+                                        .form__group
+                                            button.btn.btn--green Login
+                                .login-form.home-login-form.signup-login-form
+                                    .form__label.signup-form-p
+                                        span Don't have an account? 
+                                        a.signup-form-link(href='/signup') Sign up 
+                                        span here!
+                                    //- a(href='/signup')
+                                    //-     button.btn.btn--green Sign up
+
+
+        // FOOTER
+        include _footer
+        
+
+        //- script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js')
+        //- script(src='/js/leaflet.js')
+        //- script(src='/js/login.js')
+        script(src='/js/bundle.js')
+        
+
+
+
+
+
