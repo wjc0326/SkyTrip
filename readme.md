@@ -58,6 +58,9 @@ You can log in with laura@example.com and password test1234
 
 ### Book a Trip
 * Our home page
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/overview_vedio.gif" alt="login" width="800">
+</div>
 
 * Check for trip details
 
