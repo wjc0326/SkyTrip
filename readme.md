@@ -85,20 +85,25 @@ Test mood card details:
 
 User Account:
 <div align="center">
-  <img src="" alt="login" width="500">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/user.jpg" alt="login" width="500">
 </div>
 
 Admin Account:
 <div align="center">
-  <img src="" alt="login" width="500">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/admin.jpg" alt="login" width="500">
 </div>
 
 Change new photo in user account:
 <div align="center">
-  <img src="" alt="changephoto" width="800">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/changephoto.gif" alt="changephoto" width="800">
 </div>
-* Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
+
+* Check the trip you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
   page after you have completed the booking.
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="login" width="500">
+</div>
+  
 * Write review for booked trip
 
 
