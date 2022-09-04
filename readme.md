@@ -106,7 +106,7 @@ Change new photo in user account:
   
 * Write review for booked trip
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/review.gif" alt="review" width="600">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/review.gif" alt="review" width="800">
 </div>
 
 ## Installation
