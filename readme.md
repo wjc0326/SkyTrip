@@ -37,7 +37,7 @@
 ### Sign Up & Log In
 * Sign up
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="signup" width="600">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="signup" width="800">
 </div>
 
 When you sign up, you will receive an active account email first. Then a welcome email after activating your account.
@@ -53,7 +53,7 @@ When you sign up, you will receive an active account email first. Then a welcome
 You can log in with laura@example.com and password test1234
 
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="600">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="800">
 </div>
 
 ### Book a Trip
@@ -101,7 +101,7 @@ Change new photo in user account:
 * Check the trip you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
   page after you have completed the booking.
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="booking" width="600">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="booking" width="800">
 </div>
   
 * Write review for booked trip
