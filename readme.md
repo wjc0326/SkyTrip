@@ -101,11 +101,13 @@ Change new photo in user account:
 * Check the trip you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
   page after you have completed the booking.
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="login" width="600">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="booking" width="600">
 </div>
   
 * Write review for booked trip
-
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/review.gif" alt="review" width="600">
+</div>
 
 ## Installation
 ### Environment variables
