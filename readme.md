@@ -68,16 +68,16 @@ You can log in with laura@example.com and password test1234
 </div>
 
 * Book a trip and ckeckout
-<div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/checkout.gif" alt="checkout" width="800">
-</div>
-
 ```
 Test mood card details:
   - Card No. : 4242 4242 4242 4242
   - Expiry date: 02 / 23
   - CVV: 222
  ```
+ <div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/checkout.gif" alt="checkout" width="800">
+</div>
+
 * Finished!
 
 ### Manage your Account
