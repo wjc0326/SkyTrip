@@ -32,9 +32,13 @@
 
 ### Sign Up & Log In
 * Sign up
+<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="SkyTrip" width="500">
 
 * Log in
-* You can log in with laura@example.com and password test1234
+
+You can log in with laura@example.com and password test1234
+
+<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="SkyTrip" width="500">
 
 ### Book a Trip
 * Our home page
