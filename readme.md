@@ -18,6 +18,7 @@
 
 ## Website
 👉 : https://skytrip-app.herokuapp.com/
+<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="500">
 
 ## Build With
 
@@ -32,19 +33,33 @@
 
 ### Sign Up & Log In
 * Sign up
-<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="SkyTrip" width="500">
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="signup" width="500">
+</div>
+
+When you sign up, you will receive an active account email first. Then a welcome email after activating your account.
+
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/activeaccount_email.png" alt="activate_email" width="500">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/welcome_email.png" alt="welcome_email" width="500">
+</div>
+
 
 * Log in
 
 You can log in with laura@example.com and password test1234
 
-<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="SkyTrip" width="500">
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="500">
+</div>
 
 ### Book a Trip
 * Our home page
+
 * Check for trip details
-* Book a trip
-* Process to payment ckeckout page
+
+* Book a trip and ckeckout
+
 ```
 Test mood card details:
   - Card No. : 4242 4242 4242 4242
@@ -54,10 +69,10 @@ Test mood card details:
 * Finished!
 
 ### Manage your Account
+* Update your own username, profile photo, email and password.
 * Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
   page after you have completed the booking.
-
-* You can update your own username, profile photo, email and password.
+* Write review for booked trip
 
 
 ## Installation
