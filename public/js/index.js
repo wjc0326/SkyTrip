@@ -7,6 +7,7 @@ import { resizeImage } from './resizeImage';
 import { autoShowSlides } from './carousel';
 import { bookTour } from './stripe';
 import { createReview } from './review';
+import { showAlert } from './alerts';
 
 // Dom elements
 const mapBox = document.getElementById('map');
@@ -20,6 +21,7 @@ const bookBtn = document.getElementById('book-tour');
 const reviewBtn = document.querySelector('.btn--review');
 const reviewSave = document.querySelector('.review-save');
 const closeReview = document.querySelector('.close');
+const alertMessage = document.querySelector('body').dataset.alert;
 
 if (slides.length != 0) {
   autoShowSlides();
@@ -113,4 +115,8 @@ if (reviewSave) {
     await createReview(tourId, review, rating);
     // document.querySelector('.bg-modal').style.display = 'none';
   });
+}
+
+if (alertMessage) {
+  showAlert('success', alertMessage, 20);
 }
