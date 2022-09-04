@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/public/img/logo-long.png" alt="SkyTrip" width="500"></a>
+  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/public/img/logo-long.png" alt="SkyTrip" width="400"></a>
   <br>
   <br>
 </h1>
@@ -59,15 +59,18 @@ You can log in with laura@example.com and password test1234
 ### Book a Trip
 * Our home page
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/overview_vedio.gif" alt="login" width="800">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/overview_vedio.gif" alt="overview_vedio" width="800">
 </div>
 
 * Check for trip details
 <div align="center">
-  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/tripdetails.gif" alt="login" width="800">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/tripdetails.gif" alt="tripdetails" width="800">
 </div>
 
 * Book a trip and ckeckout
+<div align="center">
+  <img src="" alt="checkout" width="800">
+</div>
 
 ```
 Test mood card details:
@@ -79,6 +82,21 @@ Test mood card details:
 
 ### Manage your Account
 * Update your own username, profile photo, email and password.
+
+User Account:
+<div align="center">
+  <img src="" alt="login" width="500">
+</div>
+
+Admin Account:
+<div align="center">
+  <img src="" alt="login" width="500">
+</div>
+
+Change new photo in user account:
+<div align="center">
+  <img src="" alt="changephoto" width="800">
+</div>
 * Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
   page after you have completed the booking.
 * Write review for booked trip
