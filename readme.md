@@ -63,6 +63,9 @@ You can log in with laura@example.com and password test1234
 </div>
 
 * Check for trip details
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/tripdetails.gif" alt="login" width="800">
+</div>
 
 * Book a trip and ckeckout
 
