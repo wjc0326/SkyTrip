@@ -475,6 +475,9 @@ body {
   flex: 0 0 50%;
 }
 
+.description-box {
+  margin-top: 35px;
+}
 .description-box .description {
   margin-right: 5rem;
 }
