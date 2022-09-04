@@ -69,7 +69,7 @@ You can log in with laura@example.com and password test1234
 
 * Book a trip and ckeckout
 <div align="center">
-  <img src="" alt="checkout" width="800">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/checkout.gif" alt="checkout" width="800">
 </div>
 
 ```
