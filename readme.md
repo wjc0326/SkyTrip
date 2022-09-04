@@ -13,7 +13,7 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#installation">Installation</a> •
   <a href="#future-updates">Future Updates</a> • 
-  <a href="#acknowledgement">Acknowledgement</a>
+  <a href="#reference">Reference</a>
 </p>
 
 ## Website
@@ -26,33 +26,87 @@
 * __Database__: MongoDB, Mongoose, Compass
 * __Authentication & Authorization__: JSON Web Token
 * __Cloud Platform__: Heroku, Git, Atlas
-* __Other Tools__: Postman, Stripe, [Leaflet](https://leafletjs.com/reference.html),  [Mailtrap](https://mailtrap.io/) & [SendInBlue](https://www.sendinblue.com/)
+* __Other Tools__: Postman, [Stripe](https://stripe.com/), [Leaflet](https://leafletjs.com/reference.html),  [Mailtrap](https://mailtrap.io/) & [SendInBlue](https://www.sendinblue.com/)
+
+## How To Use
+
+### Sign Up & Log In
+* Sign up
+
+* Log in
+* You can log in with laura@example.com and password test1234
+
+### Book a Trip
+* Our home page
+* Check for trip details
+* Book a trip
+* Process to payment ckeckout page
+```
+Test mood card details:
+  - Card No. : 4242 4242 4242 4242
+  - Expiry date: 02 / 23
+  - CVV: 222
+ ```
+* Finished!
+
+### Manage your Account
+* Check the tour you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
+  page after you have completed the booking.
+
+* You can update your own username, profile photo, email and password.
+
 
 ## Installation
-You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the
-dependencies by running
+### Environment variables
+Database:
 ```
-$ npm i
-set your env variables
-$ npm run watch:js
-$ npm run build:js
+NODE_ENV=
+PORT=
+DATABASE=
+DATABASE_PASSWORD=
+```
+JWT configuration:
+```
+JWT_SECRET=
+JWT_EXPIRES_IN=
+JWT_COOKIE_EXPIRES_IN=
+```
+Mailtrap:
+```
+EMAIL_USERNAME=
+EMAIL_PASSWORD=
+EMAIL_HOST=
+EMAIL_PORT=
+EMAIL_FROM=
+```
+SendInBlue:
+```
+SENDINBLUE_API=
+SENDINBLUE_USERNAME=
+SENDINBLUE_PASSWORD=
+```
+Stripe:
+```
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET
+```
+### Install steps
+```
+$ npm install
+create config.env and set your environment variables
+$ npm start
 $ npm run dev (for development)
 $ npm run start:prod (for production)
-$ npm run debug (for debug)
-$ npm start
-Setting up ESLint and Prettier in VS Code 👇
-$ npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node
-eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 ```
 
 ## Future Updates
+* __Complete all the remaining pages on user account page__
+* __Implement "like trip" functionality with fav trip page__
+* __Keep user logged in with refresh tokens__
+* __Design the function of filting and sorting trips on overview page:__ already implemented on backend using API.
+* __Two-factor authentication:__ users are granted access to SkyTrip Website only after successfully presenting the randomly generated and frequently changing codes send to their email addresses.
+* __Improve tour dates:__ add a participants and soldOut field to each date. When the user wants to book a specific trip, he/she needs to check if trip on the selected date is still available.
 
-* Enable PWA
-* Improve overall UX/UI and fix bugs
-* Featured Tours
-* Recently Viewed Tours
-* And More ! There's always room for improvement!
+## Reference
 
-## Acknowledgement
-
-* This project is part of the online course I've taken at Udemy. Thanks to Jonas Schmedtmann for creating this awesome course! Link to the course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2019](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
+* Modified from the Natours project by Jonas' Udemy course: [Node.js, Express, MongoDB & More: The Complete Bootcamp 2022](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
