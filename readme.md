@@ -18,7 +18,10 @@
 
 ## Website
 👉 : https://skytrip-app.herokuapp.com/
-<img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="500">
+
+<div align="center">
+  <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/homepage.jpg" alt="login" width="800">
+</div>
 
 ## Build With
 
