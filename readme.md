@@ -36,7 +36,7 @@
 ## How To Use
 
 ### Sign Up & Log In
-* Sign up
+* __Sign up__
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/signup.jpg" alt="signup" width="800">
 </div>
@@ -49,26 +49,24 @@ When you sign up, you will receive an active account email first. Then a welcome
 </div>
 
 
-* Log in
-
-You can log in with laura@example.com and password test1234
+* __Log in:__ You can log in with laura@example.com and password test1234
 
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/login.png" alt="login" width="800">
 </div>
 
 ### Book a Trip
-* Our home page
+* __Home page__
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/overview_vedio.gif" alt="overview_vedio" width="800">
 </div>
 
-* Check for trip details
+* __Check for trip details__
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/tripdetails.gif" alt="tripdetails" width="800">
 </div>
 
-* Book a trip and ckeckout
+* __Book a trip and ckeckout__
 ```
 Test mood card details:
   - Card No. : 4242 4242 4242 4242
@@ -79,33 +77,32 @@ Test mood card details:
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/checkout.gif" alt="checkout" width="800">
 </div>
 
-* Finished!
+* __Finished!__
 
 ### Manage your Account
-* Update your own username, profile photo, email and password.
+* __Update user info:__ User can update username, email, profile photo and password.
 
 User Account:
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/user.jpg" alt="login" width="500">
 </div>
 
-Admin Account:
+Admin Account: Having the extra functionality of managing trips, users, reviews and bookings on the account page
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/admin.jpg" alt="login" width="500">
 </div>
 
-Change new photo in user account:
+Change new photo: The preview of new photo will automatically show up, and after refreshing the page, the updated user photo will also show up at the top right of the website.
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/changephoto.gif" alt="changephoto" width="800">
 </div>
 
-* Check the trip you have booked in "Manage Booking" page in your user settings. You'll be automatically redirected to this
-  page after you have completed the booking.
+* __Manage booking:__ User can check the trip he/she has booked in "Manage Booking" page in the user account page. And he/she will be automatically redirected to this page after the booking has been completed.
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/booking.png" alt="booking" width="800">
 </div>
   
-* Write review for booked trip
+* __Write review for booked trip:__ User can only write review for the booked trip, and can only write once.
 <div align="center">
   <img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/readme_img/review.gif" alt="review" width="800">
 </div>
@@ -142,7 +139,7 @@ SENDINBLUE_PASSWORD=
 Stripe:
 ```
 STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET
+STRIPE_WEBHOOK_SECRET=
 ```
 ### Install steps
 ```
@@ -154,11 +151,11 @@ $ npm run start:prod (for production)
 ```
 
 ## Future Updates
-* __Complete all the remaining pages on user account page__
+* __Complete all the remaining links and pages on user account page__
 * __Implement "like trip" functionality with fav trip page__
 * __Keep user logged in with refresh tokens__
 * __Design the function of filting and sorting trips on overview page:__ already implemented on backend using API.
-* __Two-factor authentication:__ users are granted access to SkyTrip Website only after successfully presenting the randomly generated and frequently changing codes send to their email addresses.
+* __Two-factor authentication:__ user can get access to SkyTrip Website only after successfully presenting the randomly generated and frequently changing code sent to his/her email address.
 * __Improve tour dates:__ add a participants and soldOut field to each date. When the user wants to book a specific trip, he/she needs to check if trip on the selected date is still available.
 
 ## Reference
