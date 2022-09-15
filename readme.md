@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://lakshman-natours.herokuapp.com/"><img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/public/img/logo-long.png" alt="SkyTrip" width="400"></a>
+  <a href="https://skytrip-app.herokuapp.com/"><img src="https://github.com/Yuqi-Shi/SkyTrip/blob/main/public/img/logo-long.png" alt="SkyTrip" width="400"></a>
   <br>
   <br>
 </h1>
